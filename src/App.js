@@ -1,14 +1,14 @@
 import "./App.css";
-import { useMutation, gql, useQuery } from "@apollo/client";
 
-import QueryTest from "./components/QueryTest";
-import MutationTest from "./components/MutationTest";
+// import QueryTest from "./components/QueryTest";
+// import MutationTest from "./components/MutationTest";
+import GetQuery from "./components/AxiosTest";
+
+import Main from "./components/ImageUpload";
 function App() {
     return (
         <div className="App">
-            <h1>React + Apollo Client</h1>
-            <QueryTest />
-            <MutationTest />
+            <Main />
         </div>
     );
 }
