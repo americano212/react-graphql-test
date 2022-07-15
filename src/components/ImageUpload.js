@@ -38,7 +38,7 @@ export default function Main() {
         formData.append("file", img);
 
         axios
-            .post("http://localhost:8000/img", formData)
+            .post("http://localhost:8081/img", formData)
             .then((res) => {
                 setImg(res.data.location);
                 alert("성공");
